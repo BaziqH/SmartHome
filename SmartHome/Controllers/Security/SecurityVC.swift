@@ -2,17 +2,12 @@
 /********** Developed by Drudots Technology **********/
 /******** https://www.drudotstech.com **********/
 //
-    
-
-import UIKit
-
-class ViewController: UIViewController {
-
+class SecurityVC: UIViewController {
+//MARK: - OUTLETS
+    @IBOutlet weak var securityTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupTableView()
+        registerNibs()
     }
-
-
 }
-
